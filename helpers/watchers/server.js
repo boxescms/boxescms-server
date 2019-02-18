@@ -11,7 +11,7 @@ let restartThrottle
 const killauth = crypto.randomBytes(32).toString('hex')
 
 const startDevServer = () => {
-  const indexfile = existsSync('node_modules/boxescms/index.js') ? 'node_modules/boxescms/index.js' : 'index.js'
+  const indexfile = existsSync('node_modules/boxescms-server/index.js') ? 'node_modules/boxescms-server/index.js' : 'index.js'
 
   const execArgv = []
 
