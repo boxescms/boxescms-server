@@ -8,7 +8,7 @@ try {
   throw new Error(`Error opening App package.json at ${process.cwd()}.`)
 }
 
-if (appPackage.name === 'boxescms') {
+if (appPackage.name === '@boxescms/server') {
   throw new Error(`This seems to be the boxescms package folder.`)
 }
 
