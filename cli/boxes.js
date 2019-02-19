@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-require('dotenv').config()
+require('../helpers/loadEnv')
 const chalk = require('chalk')
 const yargs = require('yargs')
 const crypto = require('crypto')

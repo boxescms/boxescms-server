@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('./helpers/loadEnv')
 
 const base = process.cwd()
 const chalk = require('chalk')
