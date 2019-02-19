@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('@boxescms/server/helpers/loadEnv')
 
 module.exports = {
   client: process.env.DB_TYPE,
