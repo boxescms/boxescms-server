@@ -15,6 +15,7 @@
     "compression": "^1.7.3",
     "cookie-parser": "^1.4.4",
     "dotenv": "^6.2.0",
+    "eslint": "^5.14.1",
     "express": "^4.16.4",
     "get-port": "^4.1.0",
     "glob": "^7.1.3",
